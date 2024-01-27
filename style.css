@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: black;
+}
+
+.container {
+    position: absolute;
+    justify-content: center;
+    margin-top: 60px;
+    padding: 8px;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 200px;
+    border: 1px solid white;
+}
+
+button {
+    width: 70px;
+    height: 70px;
+    color: #ff7433;
+    background-color: transparent;
+    border: transparent;
+    font-size: x-large;
+    cursor: pointer;
+}
+
+.number {
+    color: white;
+}
+
+.equal {
+    background-color: #ff7433;
+    color: white;
+    border-radius: 100px;
+}
+
+.equal:hover:active {
+    background-color: #ff7433;
+    transform: scale(0.9);
+}
+
+button:hover:active {
+    background-color: rgb(123, 123, 123, 0.5);
+    border-radius: 40px;
+}
+
+.done:hover {
+    cursor: default;
+}
+
+.done:hover:active {
+    background-color: transparent;
+}
+
+.operacao {
+    color: white;
+    text-align: end;
+    font-size: x-large;
+    width: 260px;
+    word-wrap: break-word;
+    margin-left: 10px;
+    border-bottom: 1px solid white;
+}
